@@ -17,4 +17,5 @@ The purpose of this is to simply test the integration with AWS CloudWatch events
 This Lambda function is written to be triggered by a CloudWatch event. Testing was done using scheduled events. When run, it will fetch data from the following APIs:
 * Open Weather Map API (http://openweathermap.org/api)
 * News API (https://newsapi.org/)
+
 The data from these two APIs are combined into a simple email message which is then published to an SNS topic.
